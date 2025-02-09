@@ -4,28 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3263/3263135.png" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- link css -->
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Avaliações</title>
 </head>
 <body>
-    <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-        <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
+    <main id="feedbacks">
+        <div id="feedbacks_header">
+            <h1>Avaliações</h1>
+            <h2>O que os clientes dizem</h2>
+            <p>Quer saber o que torna a nossa marca tão especial? Confira o que nossos clientes têm a dizer!</p>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-    
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="feedback-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <blockquote class="feedback-quote">"Experiência incrível! Desde o primeiro contato, fui muito bem atendido e recebi todas as informações de forma clara. Recomendo para todos!"</blockquote>
+                    <div class="feedback-author">
+                        <div class="author-avatar">
+                            <img src="./src/img/avatar-1.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <h3>Canela</h3>
+                            <p>Cliente desde 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="feedback-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <blockquote class="feedback-quote">"Fiquei muito satisfeito com a minha experiência. O atendimento foi eficiente e o processo foi rápido e sem complicações. Recebi tudo conforme o esperado, o que me deixou bem tranquilo. Sem dúvidas, uma ótima escolha."</blockquote>
+                    <div class="feedback-author">
+                        <div class="author-avatar">
+                            <img src="./src/img/avatar-2.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <h3>Café</h3>
+                            <p>Cliente desde 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="feedback-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <blockquote class="feedback-quote">"Minha experiência foi excelente do início ao fim. A comunicação foi clara, a entrega foi feita dentro do prazo e a qualidade atendeu às expectativas. Recomendo, sem dúvida, pelo compromisso e seriedade."</blockquote>
+                    <div class="feedback-author">
+                        <div class="author-avatar">
+                            <img src="./src/img/avatar-3.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <h3>Açucar</h3>
+                            <p>Cliente desde 2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="feedback-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <blockquote class="feedback-quote">"Tudo ocorreu conforme planejado. O serviço foi prestado de maneira pontual e com muita atenção aos detalhes. Não tive nenhum problema durante o processo, e fiquei bastante satisfeito com o resultado final. Muito positivo."'</blockquote>
+                    <div class="feedback-author">
+                        <div class="author-avatar">
+                            <img src="./src/img/avatar-4.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <h3>Chocolate</h3>
+                            <p>Cliente desde 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./src/js/script.js"></script>
 </body>
